@@ -1,0 +1,22 @@
+{
+    "name": "lengl/bienesraices",
+    "description": "Adaptando el proyecto a POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Leinglin J. Delgado R.",
+            "email": "lenglyn@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "Models\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    },
+    "require": {
+        "intervention/image": "2.7.2",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
